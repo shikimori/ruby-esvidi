@@ -1,3 +1,5 @@
+Fork from [willcannings/Ruby-SVD](https://github.com/willcannings/Ruby-SVD) to fix some bugs.
+
 Ruby SVD
 ========
 Singular Value Decomposition for Ruby with no dependency on GSL or LAPACK.

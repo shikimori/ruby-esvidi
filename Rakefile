@@ -4,7 +4,7 @@ require 'rake'
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
-    gem.name = "ruby-svd"
+    gem.name = "ruby_svd"
     gem.summary = "SVD for Ruby"
     gem.description = "Singular Value Decomposition with no dependency on GSL or LAPACK"
     gem.email = "me@willcannings.com"
@@ -48,7 +48,7 @@ Rake::RDocTask.new do |rdoc|
   version = File.exist?('VERSION') ? File.read('VERSION') : ""
 
   rdoc.rdoc_dir = 'rdoc'
-  rdoc.title = "ruby-svd #{version}"
+  rdoc.title = "ruby_svd #{version}"
   rdoc.rdoc_files.include('README*')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
