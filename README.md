@@ -12,7 +12,7 @@ method (decomposes the matrix, transposes matrix V, diagonalises the S array int
 Sample Usage
 ------------
 ```ruby
-require 'ruby-svd'
+require 'ruby-esvidi'
 
 tdm = SVDMatrix.new(4, 2)
 tdm.set_row(0, [1,0])
